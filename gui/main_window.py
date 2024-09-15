@@ -1,8 +1,9 @@
 # gui/main_window.py
 
 from PyQt5.QtWidgets import QMainWindow, QLabel, QPushButton, QFileDialog, QVBoxLayout, QWidget, QListWidget, QMessageBox
-from networking.zeroconf_discovery import DeviceDiscovery
+
 from networking.network_manager import NetworkManager
+from networking.zeroconf_discovery import DeviceDiscovery
 
 class AirDropApp(QMainWindow):
     def __init__(self):
