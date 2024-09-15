@@ -1,0 +1,8 @@
+# Ignore specific files and directories
+dist/
+build/
+
+# Ensure that dist/ and build/ are not ignored if they are already tracked
+!dist/*
+!build/*
+venv/

@@ -1,0 +1,3 @@
+# App configuration
+app_name: Airdrop-like File Transfer
+port: 5000
